@@ -31,7 +31,7 @@ jsonschema-specifications==2025.4.1
 kiwisolver==1.4.8
 MarkupSafe==3.0.2
 matplotlib==3.10.3
-mediapipe==0.10.20
+mediapipe==0.10.21
 ml_dtypes==0.5.1
 narwhals==1.46.0
 numpy==1.26.4
