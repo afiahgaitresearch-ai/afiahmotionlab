@@ -545,4 +545,4 @@ class GaitAnalysis:
             output_video_path = self.save_annotated_video(annotated_frames, self.frame_rate)
             result_summary = self.df.mean().to_json(indent=4)
 
-            return output_video_path, self.df, result_summary, plt, self.distance_df, speed_mps, step_count
+            return output_video_path, self.df, result_summary, plt, self.distance_df, speed_mps, step_count, cadence
