@@ -63,7 +63,7 @@ class StreamlitApp:
                         distance=distance
                     )
                     # The new parameter `speed_mps` is now returned
-                    output_video, df, result, plt, distance_df, speed_mps , step_count = gait_analysis.process_video()
+                    output_video, df, result, plt, distance_df, speed_mps , step_count, cadence = gait_analysis.process_video()
 
                 st.success('✅ Analysis complete!')
 
