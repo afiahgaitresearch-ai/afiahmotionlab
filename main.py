@@ -11,7 +11,7 @@ class StreamlitApp:
     def __init__(self):
 
         st.set_page_config(layout="wide")  # Use a wider layout for better spacing
-        st.title("AI-Powered Gait Analyzer with Computer Vision")
+        st.title("Marker-less Gait Analysis System")
 
         st.caption(
             """
@@ -19,7 +19,7 @@ class StreamlitApp:
             """
         )
 
-        st.header("1. Enter Your Details")
+        st.header("1. Anthropometrics Data")
         # Use columns for a cleaner layout
         col1, col2, col3 = st.columns(3)
 
