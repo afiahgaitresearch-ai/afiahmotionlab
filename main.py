@@ -101,7 +101,7 @@ class StreamlitApp:
                     st.metric(label="Step Count", value=f"{step_count} step")
 
                 with metric_col6:
-                    st.metric(label="Cadence", value=f"{step_count} steps/min")
+                    st.metric(label="Cadence", value=f"{cadence:.1f} steps/min")
 
                 st.markdown("---")  # Add a horizontal line for separation
 
