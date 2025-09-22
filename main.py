@@ -81,7 +81,7 @@ class StreamlitApp:
                 st.header("Analysis Summary")
 
                 # Use columns to display key metrics in a card-like format
-                metric_col1, metric_col2, metric_col3, metric_col4, metric_col5, metric_col6 = st.columns(5)
+                metric_col1, metric_col2, metric_col3, metric_col4, metric_col5, metric_col6 = st.columns(6)
 
                 with metric_col1:
                     st.metric(label="Height", value=f"{height} cm")
@@ -101,8 +101,7 @@ class StreamlitApp:
                     st.metric(label="Step Count", value=f"{step_count} step")
 
                 with metric_col6:
-                    # Format the speed to 2 decimal places for better readability
-                    st.metric(label="Cadence", value=f"{cadence} step")
+                    st.metric(label="Cadence", value=f"{step_count} steps/min")
 
                 st.markdown("---")  # Add a horizontal line for separation
 
